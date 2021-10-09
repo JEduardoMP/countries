@@ -1,0 +1,10 @@
+select{
+    padding: 0.6rem;
+}
+form select{
+    width: 90%;
+    margin-bottom: 1.5rem
+}
+button{
+    width: 100px;
+}

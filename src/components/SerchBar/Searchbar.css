@@ -1,0 +1,33 @@
+li a{
+    color: white;
+}
+.active{
+    color: goldenrod;
+}
+.search{
+    background-color: #150050;
+    height: 3rem;
+    margin-bottom: 1rem;
+}
+.search ul{
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    height: 100%;
+    padding: 0%;
+}
+.search ul li {
+    list-style: none;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+}
+.search ul li:hover{
+    background-color: #352955be;
+}
+.search ul li a {
+    text-decoration: none;
+    margin: 0;
+}

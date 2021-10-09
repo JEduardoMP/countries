@@ -1,0 +1,53 @@
+.center {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+div input{
+    margin-bottom: 3rem;
+}
+div button{
+    margin-top: 1rem;
+    border: solid goldenrod;
+    background-color: wheat;
+    border-radius: 5px;
+    width: 25em;
+    padding: 0.4rem;
+}
+div button a{
+    text-decoration: none;
+    color: black;
+}
+div button:hover{
+    background-color: goldenrod;
+}
+img {
+    border: solid 2px ;
+    color: #000;
+    height: 200px;
+    width: 80%;
+}
+a img:hover {
+    color: goldenrod
+}
+.subtitle-container{
+    max-width: 12em;
+    margin: auto auto ;
+    margin-bottom: 0.6rem;
+}
+@media (min-width: 768px) {
+    .grid{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    }
+
+    img {
+        width: 400px;
+        height: 250px;
+    }
+}
